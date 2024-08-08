@@ -1,3 +1,8 @@
+body{
+  background-color: #282c34;
+  color: whitesmoke;
+}
+
 .App {
   text-align: center;
 }
@@ -23,16 +28,34 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/* CUSOTM CSS BY SELF.. */
+.root-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.features-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.area-location {
+  height: 220px;
 
-.App-link {
-  color: #61dafb;
+  /* border: 1px solid rgb(143, 141, 141); */
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.point-location {
+  height: 220px;
+  /* border: 1px solid rgb(143, 141, 141); */
+  display: flex;
 }
+.functions-area {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+

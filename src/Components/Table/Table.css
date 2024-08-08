@@ -1,0 +1,40 @@
+.table-section {
+    width: 90%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+
+    border-radius: 10px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #434443;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #222121;
+  }
+  
+  table th {
+    font-size: 13px;
+    height: 15px;
+  }
+  table td {
+    font-size: 13px;
+    height: 12px;
+  }
+  .theader-name{
+    width: 100px;
+  }
+  .theader-location {
+    width: 200px;
+  }
+  .trow-location {
+    width: 200px;
+  }

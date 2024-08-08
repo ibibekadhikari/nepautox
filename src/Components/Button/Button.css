@@ -1,0 +1,36 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    height: 35px;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #6c28a7; /* Bootstrap success color #28a745; */
+    color: #e2dede; /* Text color */
+    background-color: #582778; /* Background color for green #1c7e33 */
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    user-select: none;
+  }
+  
+  .btn:hover {
+    background-color: #471b60; /* Darker background color on hover green #1b6a2c */
+    border-color: #371860; /* Darker border color on hover */
+  }
+  .btn:active {
+      background-color: #32124a; /* Darker background color when clicked */
+      border-color: #26103f; /* Darker border color when clicked */
+      color: #a09e9e; /* Text color when clicked */
+    }
+    
+  .btn_img{
+      -webkit-filter: invert(100%); /* Safari/Chrome */
+      filter: invert(90%);
+      margin-right: 5px;
+  
+  }

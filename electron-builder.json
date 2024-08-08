@@ -1,0 +1,17 @@
+{
+  "productName": "nepautox",
+  "directories": {
+    "output": "build"
+  },
+  "files": ["build/**/*", "node_modules/**/*"],
+  "win": {
+    "target": "nsis"
+  },
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": ["AppImage", "deb"]
+  },
+  "asar": true
+}
